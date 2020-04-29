@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "scope": "miketreacy",
+    "env": {
+        "APP_ENV": "production"        
+    },  
+    "trailingSlash": false,
+    "redirects": [
+        {
+            "source": "/feedback",
+            "statusCode": 308,
+            "destination": "https://docs.google.com/forms/d/e/1FAIpQLScxcXxFPoyuHPBXrRnTVK19zFRnpMXW5A_mLzhLaOekccxoOg/viewform"
+        }
+    ]
+}
